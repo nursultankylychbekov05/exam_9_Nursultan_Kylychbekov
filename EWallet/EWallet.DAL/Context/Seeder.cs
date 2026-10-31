@@ -41,12 +41,21 @@ public static class Seeder
             },
             new()
             {
-                Name = "Домашний интернет",
+                Name = "Megaline",
                 Accounts =
                 {
-                    new ProviderAccount { Identifier = "100001", Balance = 0 },
-                    new ProviderAccount { Identifier = "100002", Balance = 1200 },
-                    new ProviderAccount { Identifier = "100003", Balance = 60 }
+                    new ProviderAccount { Identifier = "ML200001", Balance = 150 },
+                    new ProviderAccount { Identifier = "ML200002", Balance = 0 },
+                    new ProviderAccount { Identifier = "ML200003", Balance = 780 }
+                }
+            },
+            new()
+            {
+                Name = "Aknet",
+                Accounts =
+                {
+                    new ProviderAccount { Identifier = "AK400001", Balance = 0 },
+                    new ProviderAccount { Identifier = "AK400002", Balance = 320 }
                 }
             }
         };
