@@ -14,4 +14,58 @@
     <data name="PaymentSuccess" xml:space="preserve"><value>Оплата выполнена успешно</value></data>
     <data name="ProviderAccountNotFound" xml:space="preserve"><value>Указанный реквизит у поставщика не найден</value></data>
     <data name="UnexpectedError" xml:space="preserve"><value>Произошла непредвиденная ошибка</value></data>
+    <data name="Email" xml:space="preserve">
+        <value>Email</value>
+    </data>
+    <data name="Password" xml:space="preserve">
+        <value>Пароль</value>
+    </data>
+    <data name="ConfirmPassword" xml:space="preserve">
+        <value>Подтверждение пароля</value>
+    </data>
+    <data name="LoginField" xml:space="preserve">
+        <value>Email или номер счёта</value>
+    </data>
+    <data name="RememberMe" xml:space="preserve">
+        <value>Запомнить меня</value>
+    </data>
+    <data name="Register" xml:space="preserve">
+        <value>Регистрация</value>
+    </data>
+    <data name="Login" xml:space="preserve">
+        <value>Войти</value>
+    </data>
+    <data name="Logout" xml:space="preserve">
+        <value>Выйти</value>
+    </data>
+    <data name="AccountLabel" xml:space="preserve">
+        <value>Счёт</value>
+    </data>
+    <data name="BalanceLabel" xml:space="preserve">
+        <value>Баланс</value>
+    </data>
+    <data name="EmailRequired" xml:space="preserve">
+        <value>Введите email</value>
+    </data>
+    <data name="EmailInvalid" xml:space="preserve">
+        <value>Некорректный email</value>
+    </data>
+    <data name="PasswordRequired" xml:space="preserve">
+        <value>Введите пароль</value>
+    </data>
+    <data name="PasswordsDoNotMatch" xml:space="preserve">
+        <value>Пароли не совпадают</value>
+    </data>
+    <data name="LoginRequired" xml:space="preserve">
+        <value>Введите email или номер счёта</value>
+    </data>
+    <data name="EmailTaken" xml:space="preserve">
+        <value>Пользователь с таким email уже существует</value>
+    </data>
+    <data name="InvalidCredentials" xml:space="preserve">
+        <value>Неверный логин или пароль</value>
+    </data>
+    <data name="RegistrationSuccess" xml:space="preserve">
+        <value>Регистрация прошла успешно. Номер вашего счёта: {0}</value>
+    </data>
 </root>

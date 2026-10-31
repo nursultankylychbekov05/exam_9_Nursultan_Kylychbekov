@@ -28,14 +28,14 @@ namespace EWallet.BLL.Resources {
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Messages() {
+        public Messages() {
         }
         
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EWallet.BLL.Resources.Messages", typeof(Messages).Assembly);
@@ -50,7 +50,7 @@ namespace EWallet.BLL.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -60,27 +60,90 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Счёт.
+        /// </summary>
+        public static string AccountLabel {
+            get {
+                return ResourceManager.GetString("AccountLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Счёт не найден.
         /// </summary>
-        internal static string AccountNotFound {
+        public static string AccountNotFound {
             get {
                 return ResourceManager.GetString("AccountNotFound", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Баланс.
+        /// </summary>
+        public static string BalanceLabel {
+            get {
+                return ResourceManager.GetString("BalanceLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Подтверждение пароля.
+        /// </summary>
+        public static string ConfirmPassword {
+            get {
+                return ResourceManager.GetString("ConfirmPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Счёт успешно пополнен.
         /// </summary>
-        internal static string DepositSuccess {
+        public static string DepositSuccess {
             get {
                 return ResourceManager.GetString("DepositSuccess", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        public static string Email {
+            get {
+                return ResourceManager.GetString("Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Некорректный email.
+        /// </summary>
+        public static string EmailInvalid {
+            get {
+                return ResourceManager.GetString("EmailInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Введите email.
+        /// </summary>
+        public static string EmailRequired {
+            get {
+                return ResourceManager.GetString("EmailRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пользователь с таким email уже существует.
+        /// </summary>
+        public static string EmailTaken {
+            get {
+                return ResourceManager.GetString("EmailTaken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Недостаточно средств на балансе.
         /// </summary>
-        internal static string InsufficientFunds {
+        public static string InsufficientFunds {
             get {
                 return ResourceManager.GetString("InsufficientFunds", resourceCulture);
             }
@@ -89,16 +152,88 @@ namespace EWallet.BLL.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Сумма должна быть больше нуля.
         /// </summary>
-        internal static string InvalidAmount {
+        public static string InvalidAmount {
             get {
                 return ResourceManager.GetString("InvalidAmount", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Неверный логин или пароль.
+        /// </summary>
+        public static string InvalidCredentials {
+            get {
+                return ResourceManager.GetString("InvalidCredentials", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Войти.
+        /// </summary>
+        public static string Login {
+            get {
+                return ResourceManager.GetString("Login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email или номер счёта.
+        /// </summary>
+        public static string LoginField {
+            get {
+                return ResourceManager.GetString("LoginField", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Введите email или номер счёта.
+        /// </summary>
+        public static string LoginRequired {
+            get {
+                return ResourceManager.GetString("LoginRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Выйти.
+        /// </summary>
+        public static string Logout {
+            get {
+                return ResourceManager.GetString("Logout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пароль.
+        /// </summary>
+        public static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Введите пароль.
+        /// </summary>
+        public static string PasswordRequired {
+            get {
+                return ResourceManager.GetString("PasswordRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пароли не совпадают.
+        /// </summary>
+        public static string PasswordsDoNotMatch {
+            get {
+                return ResourceManager.GetString("PasswordsDoNotMatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Оплата выполнена успешно.
         /// </summary>
-        internal static string PaymentSuccess {
+        public static string PaymentSuccess {
             get {
                 return ResourceManager.GetString("PaymentSuccess", resourceCulture);
             }
@@ -107,16 +242,43 @@ namespace EWallet.BLL.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Указанный реквизит у поставщика не найден.
         /// </summary>
-        internal static string ProviderAccountNotFound {
+        public static string ProviderAccountNotFound {
             get {
                 return ResourceManager.GetString("ProviderAccountNotFound", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Регистрация.
+        /// </summary>
+        public static string Register {
+            get {
+                return ResourceManager.GetString("Register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Регистрация прошла успешно. Номер вашего счёта: {0}.
+        /// </summary>
+        public static string RegistrationSuccess {
+            get {
+                return ResourceManager.GetString("RegistrationSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Запомнить меня.
+        /// </summary>
+        public static string RememberMe {
+            get {
+                return ResourceManager.GetString("RememberMe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Перевод выполнен успешно.
         /// </summary>
-        internal static string TransferSuccess {
+        public static string TransferSuccess {
             get {
                 return ResourceManager.GetString("TransferSuccess", resourceCulture);
             }
@@ -125,7 +287,7 @@ namespace EWallet.BLL.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Нельзя перевести средства самому себе.
         /// </summary>
-        internal static string TransferToSelf {
+        public static string TransferToSelf {
             get {
                 return ResourceManager.GetString("TransferToSelf", resourceCulture);
             }
@@ -134,7 +296,7 @@ namespace EWallet.BLL.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Произошла непредвиденная ошибка.
         /// </summary>
-        internal static string UnexpectedError {
+        public static string UnexpectedError {
             get {
                 return ResourceManager.GetString("UnexpectedError", resourceCulture);
             }
