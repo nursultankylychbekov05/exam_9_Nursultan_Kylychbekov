@@ -19,6 +19,9 @@
             <a class="nav-link text-dark" asp-controller="Transfer" asp-action="Index">@L["TransferMenu"]</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="History" asp-action="Index">@L["HistoryMenu"]</a>
+        </li>
+        <li class="nav-item">
             <form asp-controller="Account" asp-action="Logout" method="post">
                 <button type="submit" class="nav-link btn btn-link text-dark">@L["Logout"]</button>
             </form>
