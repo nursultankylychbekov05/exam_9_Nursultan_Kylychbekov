@@ -1,0 +1,24 @@
+﻿#toast-container {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.app-toast {
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .25);
+    transition: opacity .5s;
+}
+
+.app-toast-success { background: #2e7d32; }
+.app-toast-error   { background: #c62828; }
+.app-toast-hide    { opacity: 0; }

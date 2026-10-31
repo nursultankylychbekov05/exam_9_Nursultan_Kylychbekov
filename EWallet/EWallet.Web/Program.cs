@@ -23,6 +23,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<IProviderRepository, ProviderRepository>();
+builder.Services.AddLocalization();
 
 var app = builder.Build();
 
