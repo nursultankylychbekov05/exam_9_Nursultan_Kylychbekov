@@ -101,4 +101,55 @@
     <data name="TransferMenu" xml:space="preserve">
         <value>Перевод</value>
     </data>
+    <data name="HistoryTitle" xml:space="preserve">
+        <value>Журнал транзакций</value>
+    </data>
+    <data name="HistoryMenu" xml:space="preserve">
+        <value>Журнал</value>
+    </data>
+    <data name="DateFrom" xml:space="preserve">
+        <value>Дата с</value>
+    </data>
+    <data name="DateTo" xml:space="preserve">
+        <value>Дата по</value>
+    </data>
+    <data name="Filter" xml:space="preserve">
+        <value>Фильтровать</value>
+    </data>
+    <data name="Reset" xml:space="preserve">
+        <value>Сбросить</value>
+    </data>
+    <data name="ColDate" xml:space="preserve">
+        <value>Дата</value>
+    </data>
+    <data name="ColType" xml:space="preserve">
+        <value>Операция</value>
+    </data>
+    <data name="ColAmount" xml:space="preserve">
+        <value>Сумма</value>
+    </data>
+    <data name="ColCounterparty" xml:space="preserve">
+        <value>Контрагент</value>
+    </data>
+    <data name="TypeDeposit" xml:space="preserve">
+        <value>Пополнение</value>
+    </data>
+    <data name="TypeTransferIn" xml:space="preserve">
+        <value>Входящий перевод</value>
+    </data>
+    <data name="TypeTransferOut" xml:space="preserve">
+        <value>Исходящий перевод</value>
+    </data>
+    <data name="TypePayment" xml:space="preserve">
+        <value>Оплата услуг</value>
+    </data>
+    <data name="NoTransactions" xml:space="preserve">
+        <value>Транзакций не найдено</value>
+    </data>
+    <data name="Self" xml:space="preserve">
+        <value>Вы</value>
+    </data>
+    <data name="Anonymous" xml:space="preserve">
+        <value>Пополнение без авторизации</value>
+    </data>
 </root>

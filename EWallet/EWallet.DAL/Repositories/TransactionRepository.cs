@@ -18,7 +18,7 @@ public class TransactionRepository : ITransactionRepository
             .Where(t => t.FromAccount == accountNumber || t.ToAccount == accountNumber);
 
         if (from.HasValue) query = query.Where(t => t.Date >= from.Value);
-        if (to.HasValue) query = query.Where(t => t.Date <= to.Value);
+        if (to.HasValue) query = query.Where(t => t.Date < to.Value);
 
         return query.OrderByDescending(t => t.Date).ToListAsync();
     }

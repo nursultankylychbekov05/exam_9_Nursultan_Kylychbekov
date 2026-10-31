@@ -105,11 +105,56 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Пополнение без авторизации.
+        /// </summary>
+        public static string Anonymous {
+            get {
+                return ResourceManager.GetString("Anonymous", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Баланс.
         /// </summary>
         public static string BalanceLabel {
             get {
                 return ResourceManager.GetString("BalanceLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сумма.
+        /// </summary>
+        public static string ColAmount {
+            get {
+                return ResourceManager.GetString("ColAmount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Контрагент.
+        /// </summary>
+        public static string ColCounterparty {
+            get {
+                return ResourceManager.GetString("ColCounterparty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дата.
+        /// </summary>
+        public static string ColDate {
+            get {
+                return ResourceManager.GetString("ColDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Операция.
+        /// </summary>
+        public static string ColType {
+            get {
+                return ResourceManager.GetString("ColType", resourceCulture);
             }
         }
         
@@ -128,6 +173,24 @@ namespace EWallet.BLL.Resources {
         public static string ConnectionError {
             get {
                 return ResourceManager.GetString("ConnectionError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дата с.
+        /// </summary>
+        public static string DateFrom {
+            get {
+                return ResourceManager.GetString("DateFrom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дата по.
+        /// </summary>
+        public static string DateTo {
+            get {
+                return ResourceManager.GetString("DateTo", resourceCulture);
             }
         }
         
@@ -195,6 +258,33 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Фильтровать.
+        /// </summary>
+        public static string Filter {
+            get {
+                return ResourceManager.GetString("Filter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Журнал.
+        /// </summary>
+        public static string HistoryMenu {
+            get {
+                return ResourceManager.GetString("HistoryMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Журнал транзакций.
+        /// </summary>
+        public static string HistoryTitle {
+            get {
+                return ResourceManager.GetString("HistoryTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Недостаточно средств на балансе.
         /// </summary>
         public static string InsufficientFunds {
@@ -254,6 +344,15 @@ namespace EWallet.BLL.Resources {
         public static string Logout {
             get {
                 return ResourceManager.GetString("Logout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Транзакций не найдено.
+        /// </summary>
+        public static string NoTransactions {
+            get {
+                return ResourceManager.GetString("NoTransactions", resourceCulture);
             }
         }
         
@@ -348,6 +447,24 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Сбросить.
+        /// </summary>
+        public static string Reset {
+            get {
+                return ResourceManager.GetString("Reset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Вы.
+        /// </summary>
+        public static string Self {
+            get {
+                return ResourceManager.GetString("Self", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Перевести.
         /// </summary>
         public static string Transfer {
@@ -389,6 +506,42 @@ namespace EWallet.BLL.Resources {
         public static string TransferToSelf {
             get {
                 return ResourceManager.GetString("TransferToSelf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пополнение.
+        /// </summary>
+        public static string TypeDeposit {
+            get {
+                return ResourceManager.GetString("TypeDeposit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Оплата услуг.
+        /// </summary>
+        public static string TypePayment {
+            get {
+                return ResourceManager.GetString("TypePayment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Входящий перевод.
+        /// </summary>
+        public static string TypeTransferIn {
+            get {
+                return ResourceManager.GetString("TypeTransferIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Исходящий перевод.
+        /// </summary>
+        public static string TypeTransferOut {
+            get {
+                return ResourceManager.GetString("TypeTransferOut", resourceCulture);
             }
         }
         
