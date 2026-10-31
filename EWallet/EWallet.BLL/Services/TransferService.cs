@@ -41,6 +41,9 @@ public class TransferService : ITransferService
 
         if (sender.Balance < amount)
             return OperationResult.Fail(_l["InsufficientFunds"]);
+        
+        if (amount > 1_000_000)
+            return OperationResult.Fail(_l["AmountTooLarge"]);
 
         sender.Balance -= amount;
         recipient.Balance += amount;

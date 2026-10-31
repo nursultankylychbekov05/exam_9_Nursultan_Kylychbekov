@@ -152,4 +152,70 @@
     <data name="Anonymous" xml:space="preserve">
         <value>Пополнение без авторизации</value>
     </data>
+    <data name="PaymentTitle" xml:space="preserve">
+        <value>Оплата услуг</value>
+    </data>
+    <data name="PaymentMenu" xml:space="preserve">
+        <value>Оплата услуг</value>
+    </data>
+    <data name="Provider" xml:space="preserve">
+        <value>Поставщик услуг</value>
+    </data>
+    <data name="ProviderIdentifier" xml:space="preserve">
+        <value>Номер телефона / лицевой счёт</value>
+    </data>
+    <data name="IdentifierRequired" xml:space="preserve">
+        <value>Введите реквизит</value>
+    </data>
+    <data name="ProviderRequired" xml:space="preserve">
+        <value>Выберите поставщика</value>
+    </data>
+    <data name="Pay" xml:space="preserve">
+        <value>Оплатить</value>
+    </data>
+    <data name="ProviderNotFound" xml:space="preserve">
+        <value>Поставщик не найден</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>EWalletKG</value>
+    </data>
+    <data name="HomeMenu" xml:space="preserve">
+        <value>Главная</value>
+    </data>
+    <data name="Footer" xml:space="preserve">
+        <value>© 2026 EWallet</value>
+    </data>
+    <data name="IdentityDefaultError" xml:space="preserve">
+        <value>Произошла неизвестная ошибка</value>
+    </data>
+    <data name="IdentityPasswordMismatch" xml:space="preserve">
+        <value>Неверный пароль</value>
+    </data>
+    <data name="IdentityDuplicateEmail" xml:space="preserve">
+        <value>Email «{0}» уже занят</value>
+    </data>
+    <data name="IdentityDuplicateUserName" xml:space="preserve">
+        <value>Логин «{0}» уже занят</value>
+    </data>
+    <data name="IdentityInvalidEmail" xml:space="preserve">
+        <value>Email «{0}» указан некорректно</value>
+    </data>
+    <data name="IdentityPasswordTooShort" xml:space="preserve">
+        <value>Пароль должен содержать не менее {0} символов</value>
+    </data>
+    <data name="IdentityPasswordRequiresDigit" xml:space="preserve">
+        <value>Пароль должен содержать хотя бы одну цифру</value>
+    </data>
+    <data name="IdentityPasswordRequiresLower" xml:space="preserve">
+        <value>Пароль должен содержать хотя бы одну строчную букву</value>
+    </data>
+    <data name="IdentityPasswordRequiresUpper" xml:space="preserve">
+        <value>Пароль должен содержать хотя бы одну заглавную букву</value>
+    </data>
+    <data name="IdentityPasswordRequiresUniqueChars" xml:space="preserve">
+        <value>Пароль должен содержать не менее {0} разных символов</value>
+    </data>
+    <data name="AmountTooLarge" xml:space="preserve">
+        <value>Сумма превышает допустимый лимит (1 000 000)</value>
+    </data>
 </root>

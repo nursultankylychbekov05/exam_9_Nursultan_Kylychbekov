@@ -24,6 +24,9 @@ public class WalletService : IWalletService
     {
         if (amount <= 0)
             return OperationResult.Fail(_l["InvalidAmount"]);
+        
+        if (amount > 1_000_000)
+            return OperationResult.Fail(_l["AmountTooLarge"]);
 
         var user = await _users.GetByAccountNumberAsync(accountNumber?.Trim() ?? string.Empty);
         if (user == null)

@@ -105,11 +105,29 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Сумма превышает допустимый лимит (1 000 000).
+        /// </summary>
+        public static string AmountTooLarge {
+            get {
+                return ResourceManager.GetString("AmountTooLarge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Пополнение без авторизации.
         /// </summary>
         public static string Anonymous {
             get {
                 return ResourceManager.GetString("Anonymous", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EWalletKG.
+        /// </summary>
+        public static string AppName {
+            get {
+                return ResourceManager.GetString("AppName", resourceCulture);
             }
         }
         
@@ -267,6 +285,15 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to © 2026 EWallet.
+        /// </summary>
+        public static string Footer {
+            get {
+                return ResourceManager.GetString("Footer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Журнал.
         /// </summary>
         public static string HistoryMenu {
@@ -281,6 +308,114 @@ namespace EWallet.BLL.Resources {
         public static string HistoryTitle {
             get {
                 return ResourceManager.GetString("HistoryTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Главная.
+        /// </summary>
+        public static string HomeMenu {
+            get {
+                return ResourceManager.GetString("HomeMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Введите реквизит.
+        /// </summary>
+        public static string IdentifierRequired {
+            get {
+                return ResourceManager.GetString("IdentifierRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Произошла неизвестная ошибка.
+        /// </summary>
+        public static string IdentityDefaultError {
+            get {
+                return ResourceManager.GetString("IdentityDefaultError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email «{0}» уже занят.
+        /// </summary>
+        public static string IdentityDuplicateEmail {
+            get {
+                return ResourceManager.GetString("IdentityDuplicateEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Логин «{0}» уже занят.
+        /// </summary>
+        public static string IdentityDuplicateUserName {
+            get {
+                return ResourceManager.GetString("IdentityDuplicateUserName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email «{0}» указан некорректно.
+        /// </summary>
+        public static string IdentityInvalidEmail {
+            get {
+                return ResourceManager.GetString("IdentityInvalidEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Неверный пароль.
+        /// </summary>
+        public static string IdentityPasswordMismatch {
+            get {
+                return ResourceManager.GetString("IdentityPasswordMismatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пароль должен содержать хотя бы одну цифру.
+        /// </summary>
+        public static string IdentityPasswordRequiresDigit {
+            get {
+                return ResourceManager.GetString("IdentityPasswordRequiresDigit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пароль должен содержать хотя бы одну строчную букву.
+        /// </summary>
+        public static string IdentityPasswordRequiresLower {
+            get {
+                return ResourceManager.GetString("IdentityPasswordRequiresLower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пароль должен содержать не менее {0} разных символов.
+        /// </summary>
+        public static string IdentityPasswordRequiresUniqueChars {
+            get {
+                return ResourceManager.GetString("IdentityPasswordRequiresUniqueChars", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пароль должен содержать хотя бы одну заглавную букву.
+        /// </summary>
+        public static string IdentityPasswordRequiresUpper {
+            get {
+                return ResourceManager.GetString("IdentityPasswordRequiresUpper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пароль должен содержать не менее {0} символов.
+        /// </summary>
+        public static string IdentityPasswordTooShort {
+            get {
+                return ResourceManager.GetString("IdentityPasswordTooShort", resourceCulture);
             }
         }
         
@@ -384,6 +519,24 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Оплатить.
+        /// </summary>
+        public static string Pay {
+            get {
+                return ResourceManager.GetString("Pay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Оплата услуг.
+        /// </summary>
+        public static string PaymentMenu {
+            get {
+                return ResourceManager.GetString("PaymentMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Оплата выполнена успешно.
         /// </summary>
         public static string PaymentSuccess {
@@ -393,11 +546,56 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Оплата услуг.
+        /// </summary>
+        public static string PaymentTitle {
+            get {
+                return ResourceManager.GetString("PaymentTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Поставщик услуг.
+        /// </summary>
+        public static string Provider {
+            get {
+                return ResourceManager.GetString("Provider", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Указанный реквизит у поставщика не найден.
         /// </summary>
         public static string ProviderAccountNotFound {
             get {
                 return ResourceManager.GetString("ProviderAccountNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Номер телефона / лицевой счёт.
+        /// </summary>
+        public static string ProviderIdentifier {
+            get {
+                return ResourceManager.GetString("ProviderIdentifier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Поставщик не найден.
+        /// </summary>
+        public static string ProviderNotFound {
+            get {
+                return ResourceManager.GetString("ProviderNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Выберите поставщика.
+        /// </summary>
+        public static string ProviderRequired {
+            get {
+                return ResourceManager.GetString("ProviderRequired", resourceCulture);
             }
         }
         
