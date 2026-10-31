@@ -68,4 +68,22 @@
     <data name="RegistrationSuccess" xml:space="preserve">
         <value>Регистрация прошла успешно. Номер вашего счёта: {0}</value>
     </data>
+    <data name="DepositTitle" xml:space="preserve">
+        <value>Пополнение счёта</value>
+    </data>
+    <data name="AccountNumber" xml:space="preserve">
+        <value>Номер счёта</value>
+    </data>
+    <data name="Amount" xml:space="preserve">
+        <value>Сумма</value>
+    </data>
+    <data name="Deposit" xml:space="preserve">
+        <value>Пополнить</value>
+    </data>
+    <data name="AccountNumberRequired" xml:space="preserve">
+        <value>Введите номер счёта</value>
+    </data>
+    <data name="ConnectionError" xml:space="preserve">
+        <value>Ошибка соединения</value>
+    </data>
 </root>

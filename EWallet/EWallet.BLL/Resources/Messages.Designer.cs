@@ -28,7 +28,7 @@ namespace EWallet.BLL.Resources {
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        public Messages() {
+        internal Messages() {
         }
         
         /// <summary>
@@ -78,6 +78,33 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Номер счёта.
+        /// </summary>
+        public static string AccountNumber {
+            get {
+                return ResourceManager.GetString("AccountNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Введите номер счёта.
+        /// </summary>
+        public static string AccountNumberRequired {
+            get {
+                return ResourceManager.GetString("AccountNumberRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сумма.
+        /// </summary>
+        public static string Amount {
+            get {
+                return ResourceManager.GetString("Amount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Баланс.
         /// </summary>
         public static string BalanceLabel {
@@ -96,11 +123,38 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ошибка соединения.
+        /// </summary>
+        public static string ConnectionError {
+            get {
+                return ResourceManager.GetString("ConnectionError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пополнить.
+        /// </summary>
+        public static string Deposit {
+            get {
+                return ResourceManager.GetString("Deposit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Счёт успешно пополнен.
         /// </summary>
         public static string DepositSuccess {
             get {
                 return ResourceManager.GetString("DepositSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пополнение счёта.
+        /// </summary>
+        public static string DepositTitle {
+            get {
+                return ResourceManager.GetString("DepositTitle", resourceCulture);
             }
         }
         
