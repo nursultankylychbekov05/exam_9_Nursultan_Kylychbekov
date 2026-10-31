@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EWallet.BLL\EWallet.BLL.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.22" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.22">
         <PrivateAssets>all</PrivateAssets>
@@ -21,7 +17,6 @@
 
     <ItemGroup>
       <Folder Include="Migrations\" />
-      <Folder Include="Repositories\" />
     </ItemGroup>
 
 </Project>
