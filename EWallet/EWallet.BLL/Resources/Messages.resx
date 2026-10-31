@@ -86,4 +86,19 @@
     <data name="ConnectionError" xml:space="preserve">
         <value>Ошибка соединения</value>
     </data>
+    <data name="TransferTitle" xml:space="preserve">
+        <value>Перевод другому пользователю</value>
+    </data>
+    <data name="RecipientAccount" xml:space="preserve">
+        <value>Номер счёта получателя</value>
+    </data>
+    <data name="RecipientRequired" xml:space="preserve">
+        <value>Введите номер счёта получателя</value>
+    </data>
+    <data name="Transfer" xml:space="preserve">
+        <value>Перевести</value>
+    </data>
+    <data name="TransferMenu" xml:space="preserve">
+        <value>Перевод</value>
+    </data>
 </root>

@@ -303,6 +303,24 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Номер счёта получателя.
+        /// </summary>
+        public static string RecipientAccount {
+            get {
+                return ResourceManager.GetString("RecipientAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Введите номер счёта получателя.
+        /// </summary>
+        public static string RecipientRequired {
+            get {
+                return ResourceManager.GetString("RecipientRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Регистрация.
         /// </summary>
         public static string Register {
@@ -330,11 +348,38 @@ namespace EWallet.BLL.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Перевести.
+        /// </summary>
+        public static string Transfer {
+            get {
+                return ResourceManager.GetString("Transfer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Перевод.
+        /// </summary>
+        public static string TransferMenu {
+            get {
+                return ResourceManager.GetString("TransferMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Перевод выполнен успешно.
         /// </summary>
         public static string TransferSuccess {
             get {
                 return ResourceManager.GetString("TransferSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Перевод другому пользователю.
+        /// </summary>
+        public static string TransferTitle {
+            get {
+                return ResourceManager.GetString("TransferTitle", resourceCulture);
             }
         }
         
