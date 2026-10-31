@@ -1,5 +1,4 @@
-﻿// EWallet.BLL/Services/TransferService.cs
-using EWallet.BLL.Models;
+﻿using EWallet.BLL.Models;
 using EWallet.BLL.Resources;
 using EWallet.DAL.Entities;
 using EWallet.DAL.Repositories;
