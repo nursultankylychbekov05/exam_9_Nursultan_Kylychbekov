@@ -14,4 +14,7 @@ public class ProviderRepository : IProviderRepository
     public Task<ProviderAccount?> FindAccountAsync(int providerId, string identifier) =>
         _db.ProviderAccounts.FirstOrDefaultAsync(a =>
             a.ProviderId == providerId && a.Identifier == identifier);
+    
+    public Task<Provider?> GetByIdAsync(int id) =>
+        _db.Providers.FirstOrDefaultAsync(p => p.Id == id);
 }
