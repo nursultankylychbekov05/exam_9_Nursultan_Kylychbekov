@@ -1,0 +1,37 @@
+﻿@model EWallet.Web.Models.PaymentViewModel
+@using EWallet.BLL.Resources
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<Messages> L
+@{ ViewData["Title"] = L["PaymentTitle"].Value; }
+
+<div class="col-md-4 mx-auto mt-4">
+    <h2>@L["PaymentTitle"]</h2>
+    <form id="payment-form" asp-controller="Payment" asp-action="Index" method="post">
+        <div class="mb-3">
+            <label asp-for="ProviderId" class="form-label"></label>
+            <select asp-for="ProviderId" class="form-select"
+                    asp-items="@(new SelectList(Model.Providers, "Id", "Name"))">
+                <option value="0">@L["ProviderRequired"]</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Identifier" class="form-label"></label>
+            <input asp-for="Identifier" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Amount" class="form-label"></label>
+            <input asp-for="Amount" class="form-control" type="number" min="0.01" step="0.01" value="" />
+        </div>
+        <button type="submit" class="btn btn-primary">@L["Pay"]</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        const form = document.getElementById('payment-form');
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            submitAjax(form, function () { form.reset(); });
+        });
+    </script>
+}
