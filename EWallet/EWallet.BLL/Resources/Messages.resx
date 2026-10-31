@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+    <resheader name="version"><value>2.0</value></resheader>
+    <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+    <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+    <data name="AccountNotFound" xml:space="preserve"><value>Счёт не найден</value></data>
+    <data name="InsufficientFunds" xml:space="preserve"><value>Недостаточно средств на балансе</value></data>
+    <data name="InvalidAmount" xml:space="preserve"><value>Сумма должна быть больше нуля</value></data>
+    <data name="DepositSuccess" xml:space="preserve"><value>Счёт успешно пополнен</value></data>
+    <data name="TransferSuccess" xml:space="preserve"><value>Перевод выполнен успешно</value></data>
+    <data name="TransferToSelf" xml:space="preserve"><value>Нельзя перевести средства самому себе</value></data>
+    <data name="PaymentSuccess" xml:space="preserve"><value>Оплата выполнена успешно</value></data>
+    <data name="ProviderAccountNotFound" xml:space="preserve"><value>Указанный реквизит у поставщика не найден</value></data>
+    <data name="UnexpectedError" xml:space="preserve"><value>Произошла непредвиденная ошибка</value></data>
+</root>
